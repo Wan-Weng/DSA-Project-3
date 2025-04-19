@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutri-Geeks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🥦 Nutri-Geeks</h1>
+    <p>Search nutritional info and evaluate your meals!</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <h2>🔍 Search Food</h2>
+      <input type="text" id="searchInput" placeholder="Enter food ID or name..." />
+
+      <label for="dsSelect">Choose Data Structure:</label>
+      <select id="dsSelect">
+        <option value="rb">Red-Black Tree</option>
+        <option value="bp">B+ Tree</option>
+      </select>
+
+      <button onclick="searchFood()">Search</button>
+    </section>
+
+    <section class="result-section">
+      <h2>📋 Results</h2>
+      <div id="resultDisplay">
+        <!-- Search results will appear here -->
+      </div>
+    </section>
+
+    <section class="health-check">
+      <h2>🍽️ Healthiness Calculator</h2>
+      <form id="healthForm" onsubmit="return checkHealthiness(event)">
+        <input type="number" placeholder="Protein (g)" name="protein" required />
+        <input type="number" placeholder="Cholesterol (mg)" name="cholesterol" required />
+        <input type="number" placeholder="Fiber (g)" name="fiber" required />
+        <button type="submit">Evaluate</button>
+      </form>
+      <p id="healthResult"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nutri-Geeks Team</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
