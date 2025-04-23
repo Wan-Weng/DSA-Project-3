@@ -1,0 +1,107 @@
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom right, #f0f9ff, #e0f7fa);
+  margin: 0;
+  padding: 2rem;
+  color: #222;
+}
+
+h2 {
+  text-align: center;
+  color: #0f766e;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 2rem 2.5rem;
+  max-width: 650px;
+  margin: 0 auto;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin: 0.75rem 0 0.25rem;
+  color: #155e75;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  transition: border 0.2s ease;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #0e7490;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #0f766e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #115e59;
+}
+
+.result-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 1.75rem;
+  margin: 1.5rem auto;
+  max-width: 650px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 0.4s ease;
+}
+
+.result-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #1e3a8a;
+  margin-bottom: 0.75rem;
+}
+
+.result-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+p[style*="color: red"] {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
