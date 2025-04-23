@@ -12,12 +12,11 @@ Nutri-Geeks is a web-based nutrition filtering and ranking tool built with a Rea
  
 ## What it shows
 
--Outputs:
- -ID
- -Category
- -Protein
- -Sugar
- -Fiber
- -Fat
- -Score
- 
+- Output:
+  - ID
+  - Category
+  - Protein
+  - Sugar
+  - Fiber
+  - Fat
+  - Score
