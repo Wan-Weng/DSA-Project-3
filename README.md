@@ -9,3 +9,15 @@ Nutri-Geeks is a web-based nutrition filtering and ranking tool built with a Rea
   - Minimum Protein
   - Maximum Sugar
   - Minimum Fiber
+ 
+## What it shows
+
+-Outputs:
+ -ID
+ -Category
+ -Protein
+ -Sugar
+ -Fiber
+ -Fat
+ -Score
+ 
